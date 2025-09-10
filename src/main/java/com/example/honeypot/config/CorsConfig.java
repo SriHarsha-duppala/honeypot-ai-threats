@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://honeypot-frontend-m201.onrender.com/")
+                        .allowedOrigins("https://honeypot-frontend-gz1k.onrender.com/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
